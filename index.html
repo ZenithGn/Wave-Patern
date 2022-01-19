@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Wave Patern</title>
+
+    <!--Discord Embed Meta-->
+    <meta property="og:title" content="Wave Patern" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=# />
+    <meta property="og:image" content="https://wavepatern.com/assets/img/logo.png" />
+    <meta property="og:description" content="A simple wave patern generator" />
+
+    <!--Other Meta-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Wave Patern Animation" />
+    <meta name="keywords" content="Wave Patern" />
+    <meta name="author" content="Ginn" />
+    
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!--Main Content-->
+    <div class="wave-transition">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(62,62,62,0.7" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(62,62,62,0.5)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(62,62,62,0.3)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#3e3e3e" />
+            </g>
+        </svg>
+    </div>
+</body>
+</html>
